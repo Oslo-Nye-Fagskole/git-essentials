@@ -1,10 +1,9 @@
 # Version control with Git
 
-Version control is a way to track changes in files over time, allowing you to go back to earlier versions when needed and to collaborate with others safely. Git has become the de facto standard for version control, used by developers worldwide.
+Version control is a way to track changes in files over time, allowing you to go back to earlier versions when needed and to collaborate with others safely. **Git** has become the de facto standard for version control, used by developers worldwide.
 
 In this activity, you will create a new Git repository and make a series of commits to it, checking the status and log of your work as you progress, and revert changes to restore previous versions.
 
----
 
 ## Steps
 
@@ -73,8 +72,6 @@ Once you have Git installed, it’s time to begin, so *“Into the fires of batt
 19. Check the status of your repository: verify there are no pending changes and **no log entry** indicating we ever added the broken unit.
 
 Well done, we have our reinforced army roster ready and have removed all trace of our bad decision 🥳
-
----
 
 ## Optional
 
