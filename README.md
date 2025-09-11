@@ -1,6 +1,6 @@
 # Git essentials - working with Git and GitHub
 
-At ONF, **[Git](https://git-scm.com/)** and **[GitHub](https://github.com/)** are the chosen solutions for version control and collaboration. To help our students, this project is provided with hands-on activities for learning Git, with a focus on core version control operations and basic usage with GitHub.
+At ONF, [Git](https://git-scm.com/) and [GitHub](https://github.com/) are the chosen solutions for version control and collaboration. To help our students, this project is provided with hands-on activities for learning Git, with a focus on core version control operations and basic usage with GitHub.
 
 The activities cover local Git basics such as repository initialization, committing changes, and branch management; then continue with GitHub and how to set up remote repositories and collaborate using these.
 
