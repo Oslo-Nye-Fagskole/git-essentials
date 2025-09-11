@@ -2,8 +2,7 @@
 
 Version control is a way to track changes in files over time, allowing you to go back to earlier versions when needed and to collaborate with others safely. **Git** has become the de facto standard for version control, used by developers worldwide.
 
-In this activity, you will create a new Git repository and make a series of commits to it, checking the status and log of your work as you progress, and revert changes to restore previous versions.
-
+In this activity, you will create a new Git repository and make a series of commits to it. Along the way, you will check the status of your work and practice reverting changes when necessary.
 
 ## Steps
 
