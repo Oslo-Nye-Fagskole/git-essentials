@@ -6,7 +6,7 @@ In this activity, you will create a new Git repository and make a series of comm
 
 ## Steps
 
-Imagine your Git repository as a container for your Warhammer army roster. Let's start by creating the necessary folder and adding a few unit lists. Make sure you have [Git installed](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) on your machine!
+Imagine your Git repository as a container for your Warhammer army roster. Let's start by creating the necessary folder and adding a few files to hold our unit lists. Make sure you have [Git installed](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) on your machine!
 
 Once you have Git installed, it’s time to begin, so *“Into the fires of battle, unto the anvil of war!”*
 
