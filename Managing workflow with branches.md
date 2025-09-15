@@ -10,7 +10,7 @@ For now, we’ll use the **GitHub Flow** style, since it’s simple and keeps `m
 
 ## Preparing the battlefield
 
-1. Make sure you are in your **Warhammer40K** repository from the last activity.
+1. Make sure you are in your **Warhammer40K** repository from earlier.
    ```bash
    cd Warhammer40K
    git status
@@ -36,7 +36,7 @@ At this point you have two branches to work on: one for a fix, one for reinforce
 
 ## First priority: fixing mistakes 🛠️
 
-1. Switch to the `fix-infantry` branch:
+1. Make sure you are working on the `fix-infantry` branch:
    ```bash
    git checkout fix-infantry
    ```
