@@ -10,7 +10,7 @@ For now, we’ll use the **GitHub Flow** style, since it’s simple and keeps `m
 
 ## Preparing the battlefield
 
-1. Make sure you are in your **Warhammer40K** repository from earlier.
+1. Make sure you are in your **Warhammer40K** repository from earlier:
    ```bash
    cd Warhammer40K
    git status
