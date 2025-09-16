@@ -8,7 +8,7 @@ Now, make sure you have a [GitHub account](https://github.com/signup) before you
 
 ## Two ways to connect with GitHub
 
-There are two common ways to create and uase a remote repository:  
+There are two common ways to create and use a remote repository:  
 
 - **Clone from GitHub**: Start with a repository that already exists on GitHub and "clone it" (bring it down) to your computer.  
 - **Push to GitHub**: Start with a repository on your computer and then "push" (upload) it to GitHub.
