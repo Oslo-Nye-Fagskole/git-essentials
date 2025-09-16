@@ -2,9 +2,9 @@
 
 Branching in Git lets us explore new ideas, add features, or fix mistakes without without affecting the main branch of our project. There are several ways to organize branching, a few common ones being:
 
-- **[Git Flow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)**: multiple long-lived branches for features, releases, and fixes.
-- **[Trunk-based development](https://www.atlassian.com/continuous-delivery/continuous-integration/trunk-based-development)**: very short-lived branches merged quickly.
-- **[GitHub Flow](https://docs.github.com/en/get-started/using-github/github-flow)**: short feature branches created from `main` and merged back in once complete.
+- [Git Flow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow): multiple long-lived branches for features, releases, and fixes.
+- [Trunk-based development](https://www.atlassian.com/continuous-delivery/continuous-integration/trunk-based-development): very short-lived branches merged quickly.
+- [GitHub Flow](https://docs.github.com/en/get-started/using-github/github-flow): short feature branches created from `main` and merged back in once complete.
 
 For now, we'll use **GitHub Flow** and keep it local, since it's simple and keeps `main` stable while we experiment on the side. Let's put this into practice with our Warhammer army roster ⚔️
 
