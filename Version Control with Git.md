@@ -8,7 +8,7 @@ In this activity, you will create a new Git repository and make a series of comm
 
 Imagine your Git repository as a container for your Warhammer army roster. Let's start by creating the necessary folder and adding a few files to hold our unit lists. Make sure you have [Git installed](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) on your machine!
 
-Once you have Git installed, it’s time to begin, so *“Into the fires of battle, unto the anvil of war!”*
+Once you have Git installed, it's time to begin, so *“Into the fires of battle, unto the anvil of war!”*
 
 1. Create a new folder called **Warhammer40K**
 
@@ -109,7 +109,7 @@ Once you have Git installed, it’s time to begin, so *“Into the fires of batt
     git log --oneline
     ```
 
-18. Since we don’t want unreliable units in our roster, we’d better remove that last commit! Remove the previous commit completely from your repository and its history. **No one must know!**
+18. Since we don't want unreliable units in our roster, we'd better remove that last commit! Remove the previous commit completely from your repository and its history. **No one must know!**
     ```
     git reset --hard HEAD~1
     ```
@@ -124,6 +124,6 @@ Well done, we have our reinforced army roster ready and have removed all trace o
 
 ## Optional
 
-Perform the *"Broken Land Speeder"* exercise again, but this time with the infantry file. Stage and commit the bad unit *"Warp-tainted cultists"* and then immediately realize your decision was regrettable. Given that we’re now **obligated by law** to keep a record of all changes, regardless of any alterations to the roster later, use the appropriate Git command to undo your last commit while maintaining a history of all changes.
+Perform the *"Broken Land Speeder"* exercise again, but this time with the infantry file. Stage and commit the bad unit *"Warp-tainted cultists"* and then immediately realize your decision was regrettable. Given that we're now **obligated by law** to keep a record of all changes, regardless of any alterations to the roster later, use the appropriate Git command to undo your last commit while maintaining a history of all changes.
 
 What does the Git history log show now?

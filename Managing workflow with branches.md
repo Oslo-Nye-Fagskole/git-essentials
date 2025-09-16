@@ -2,11 +2,11 @@
 
 Branching in Git lets us explore new ideas, add features, or fix mistakes without without affecting the main branch of our project. There are several ways to organize branching, a few common ones being:
 
-- **Git Flow**: multiple long-lived branches for features, releases, and fixes.
-- **Trunk-based development**: very short-lived branches merged quickly.
-- **GitHub Flow**: short feature branches created from `main` and merged back in once complete.
+- **[Git Flow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)**: multiple long-lived branches for features, releases, and fixes.
+- **[Trunk-based development](https://www.atlassian.com/continuous-delivery/continuous-integration/trunk-based-development)**: very short-lived branches merged quickly.
+- **[GitHub Flow](https://docs.github.com/en/get-started/using-github/github-flow)**: short feature branches created from `main` and merged back in once complete.
 
-For now, we’ll use the **GitHub Flow** style, since it’s simple and keeps `main` stable while we experiment on the side. Let’s put this into practice with our Warhammer army roster ⚔️
+For now, we'll use **GitHub Flow** and keep it local, since it's simple and keeps `main` stable while we experiment on the side. Let's put this into practice with our Warhammer army roster ⚔️
 
 ## Preparing the battlefield
 
@@ -16,12 +16,12 @@ For now, we’ll use the **GitHub Flow** style, since it’s simple and keeps `m
    git status
    ```
 
-2. Ensure you’re on the `main` branch before starting:
+2. Ensure you're on the `main` branch before starting:
    ```bash
    git checkout main
    ```
 
-3. Create a branch for a new feature: let’s add **Elite Units**:
+3. Create a branch for a new feature: let's add **Elite Units**:
    ```bash
    git checkout -b add-elites
    ```
@@ -86,7 +86,7 @@ Check your log: the fix is now part of `main`.
 
 Because both the fix branch and the elites branch modified **infantry.txt**, Git will raise a **merge conflict** when merging `main` into `add-elites`.
 
-Open the file and you’ll see conflict markers:
+Open the file and you'll see conflict markers:
 
 * The `main` branch shows the corrected infantry squad (*Imperial Guard Squad*).
 * Your branch shows the elite additions.
